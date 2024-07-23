@@ -5,7 +5,7 @@ import { socials } from "../shared/constants";
 const Socials = () => {
   return (
     <section>
-      <h3 className="text-lg text-grey font-medium pb-4">Media & Blogs:</h3>
+      <h3 className="text-sm text-grey font-medium pb-4">Media & Blogs:</h3>
       {socials.map((social, index) => (
         <SocialCard
           avatar={social?.avatar}

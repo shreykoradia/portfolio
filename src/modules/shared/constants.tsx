@@ -1,8 +1,9 @@
 import Talez from "../../../public/images/talez.jpg";
-import Grand from "../../../public/images/grand.jpg";
+import Grand from "../../../public/images/grand.png";
 import Webcrumbs from "../../../public/images/webcrumbs.png";
 import Twitter from "../../../public/images/twitter.png";
 import Peerlist from "../../../public/images/Peerlist.jpg";
+import Linkedin from "../../../public/images/linkedin.png";
 import Dev from "../../../public/images/dev.png";
 
 export const ExperienceIntro = `Currently, I am working as an SDE-1 (core-Frontend) at a scaled
@@ -26,10 +27,7 @@ export const ExperienceBody = `During my university years, I was a finalist in t
           product with its User Experience. This project honed my skills in AI
           and machine learning algortihms, and I learned to tackle complex
           problems with innovative solutions. I also contributed to the early
-          development of {${(
-            <a href="https://www.webcrumbs.org/">WebCrumbs</a>
-          )}, an
-          open-source no-code web application.`;
+          development of WebCrumbs, an open-source no-code web application.`;
 export const ExperienceFooter = `Today I am the founding coder of my saas application which is early
           phases of Proof Of Concept called Talez where users can write tales
           for their product and brainstorm features and bug, add a feedback and
@@ -60,15 +58,21 @@ export const projectLinks = [
 export const socials = [
   {
     title: "Twitter",
-    description: "Mostly for Promoting Blogs :)",
+    description: "Mostly for Promoting Blogs & Proof of Work :)",
     link: "https://x.com/shreykoradia",
     avatar: Twitter,
   },
   {
     title: "Peerlist",
-    description: "Mostly Active for Tech Architecture Discussions :)",
+    description: "Mostly Active for Tech Architecture Discussions and Product launch! :)",
     link: "https://peerlist.io/shrey_",
     avatar: Peerlist,
+  },
+  {
+    title: "LinkedIn",
+    description: "Mostly Active for Tech Opportunites and connect with cool Founders! :)",
+    link: "https://peerlist.io/shrey_",
+    avatar: Linkedin,
   },
   {
     title: "Dev.to",
@@ -78,3 +82,25 @@ export const socials = [
     avatar: Dev,
   },
 ];
+
+export const skills = [
+  {title: "HTML / CSS3"},
+  {title: "Javascript"},
+  {title: "TypeScript"},
+  {title: "React.js"},
+  {title: "Next.js"},
+  {title: "Node.js"},
+  {title: "Express.js"},
+  {title: "Mongo DB"},
+  {title: "Pg-Sql"},
+  {title: "React-Query"},
+  {title: "Zustand"},
+  {title: "GraphQl"},
+  {title: "Prisma"},
+  {title: "REST API's"},
+  {title: "Git & Github"},
+  {title: "Firebase"},
+  {title: "Supabase"},
+  {title: "Vercel"},
+  {title: "Railway"},
+]

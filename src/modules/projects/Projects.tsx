@@ -5,7 +5,7 @@ import { projectLinks } from "../shared/constants";
 const Projects = () => {
   return (
     <section>
-      <h3 className="text-lg text-grey font-medium pb-4">Projects:</h3>
+      <h3 className="text-sm text-grey font-medium pb-4">Projects:</h3>
       {projectLinks.map((links, index) => (
         <ProjectList
           title={links?.title}

@@ -10,7 +10,7 @@ import {
 const Experience = () => {
   return (
     <section>
-      <h3 className="text-lg text-grey font-medium pb-4">Work Experience:</h3>
+      <h3 className="text-sm text-grey font-medium pb-4">Work Experience:</h3>
       <div className="flex flex-col gap-4 items-start justify-start">
         <StoryCard story={ExperienceIntro} />
         <StoryCard story={ExperienceHeader} />

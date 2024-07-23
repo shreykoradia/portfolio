@@ -19,7 +19,7 @@ const ListCard = ({ title, description, avatar, link }: ListCardProp) => {
       <div>
         <h3 className="text-xl font-medium flex items-center gap-2">
           <span>{title}</span>
-          <a href={link} className="text-sm text-blue-400 p-2">
+          <a href={link} className="text-sm text-blue-400 p-2 hover:underline" target="_blank">
             visit
           </a>
         </h3>
