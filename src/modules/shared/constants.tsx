@@ -4,6 +4,7 @@ import Webcrumbs from "../../../public/images/webcrumbs.png";
 import Twitter from "../../../public/images/twitter.png";
 import Peerlist from "../../../public/images/Peerlist.jpg";
 import Linkedin from "../../../public/images/linkedin.png";
+import RoastMyGithub from "../../../public/images/roast-my-github.png";
 import Dev from "../../../public/images/dev.png";
 
 export const ExperienceIntro = `Currently, I am working as an SDE-1 (core-Frontend) at a scaled
@@ -52,6 +53,12 @@ export const projectLinks = [
     description: `WebCrumbs Build the modern web, one plugin at a time. Open source, collaborative and plug-and-play.`,
     avatar: Webcrumbs,
     link: "https://www.webcrumbs.org",
+  },
+  {
+    title: "Roast My Github (Core Contributor - Next.js)",
+    description: `Roast My Github is a Product of the Month - June'24 on Peerlist, an application for fun way to get roast for your github repository data, where you can then ideally find the job hunting tips on the basis of github roast of your own github repository data.`,
+    avatar: RoastMyGithub ,
+    link: "https://peerlist.io/shrey_/project/roast-my-github",
   },
 ];
 
