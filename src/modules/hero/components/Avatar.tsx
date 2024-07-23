@@ -5,7 +5,7 @@ const Avatar = () => {
   return (
     <>
       <div className="w-20 h-20 rounded-full">
-        <Image src={AvatarImg} alt="helmet" className="aspect-square rounded-full" />
+        <Image src={AvatarImg} alt="helmet" className="aspect-square rounded-full" loading="lazy" />
       </div>
     </>
   );

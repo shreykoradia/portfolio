@@ -15,6 +15,7 @@ const ListCard = ({ title, description, avatar, link }: ListCardProp) => {
         src={avatar}
         alt="productImage"
         className="aspect-square h-12 w-12 rounded-full"
+        loading="lazy"
       />
       <div>
         <h3 className="text-xl font-medium flex items-center gap-2">
