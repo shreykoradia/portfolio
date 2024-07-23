@@ -85,7 +85,7 @@ export const socials = [
     title: "Dev.to",
     description:
       "Publish my Blogs Once or Twice a month, Have a 25K+ Active Avid Readers of My Blogs :)",
-    link: "https://peerlist.io/shrey_",
+    link: "https://dev.to/delisrey",
     avatar: Dev,
   },
 ];
