@@ -4,8 +4,8 @@ const HeroIntro = () => {
   return (
     <>
       <div className="">
-        <h1 className="text-5xl">
-          <span className="text-grey">{`<p>`}</span>I am SHREY🥶, Professional
+        <h1 className="text-4xl maxMd:text-2xl">
+          <span className="text-grey">{`<p>`}</span>I am SHREY KORADIA 🥶, Professional
           Software Engineer based in India, with a focus on building {`POC's`} &{" "}
           {`MVP's`} for fellow {"founder's"} and scale their product building it
           from scratch.
