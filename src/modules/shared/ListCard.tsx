@@ -10,7 +10,7 @@ interface ListCardProp {
 
 const ListCard = ({ title, description, avatar, link }: ListCardProp) => {
   return (
-    <div className="flex justify-start gap-2 items-center p-6 hover:bg-grey hover:bg-opacity-10 hover:rounded-xl hover:transition hover:delay-300">
+    <div className="flex justify-start gap-4 items-start p-6 hover:bg-grey hover:bg-opacity-10 hover:rounded-xl hover:transition hover:delay-300">
       <Image
         src={avatar}
         alt="productImage"
