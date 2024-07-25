@@ -1,16 +1,12 @@
-import Dev from "@/assets/icons/dev.svg"
-import Grand from "@/assets/icons/grand.svg"
-import Linkedin from "@/assets/icons/linkedin.svg"
-import Twitter from "@/assets/icons/twitter.svg"
+import Dev from "@/assets/icons/dev.svg";
+import Grand from "@/assets/icons/grand.svg";
+import Linkedin from "@/assets/icons/linkedin.svg";
+import Twitter from "@/assets/icons/twitter.svg";
 
 import Talez from "../../../public/images/talez.jpg";
 import Webcrumbs from "../../../public/images/webcrumbs.png";
 import Peerlist from "../../../public/images/Peerlist.jpg";
 import Indie from "../../../public/images/indie.png";
-
-
-
-
 
 export const ExperienceIntro = `Currently, I am working as an SDE-1 (core-Frontend) at a scaled
           startup, where I have played a pivotal role in developing a
@@ -62,7 +58,7 @@ export const projectLinks = [
   {
     title: "Roast My Github (Core Contributor - Next.js)",
     description: `Roast My Github is a Product of the Month - June'24 on Peerlist, an application for fun way to get roast for your github repository data, where you can then ideally find the job hunting tips on the basis of github roast of your own github repository data.`,
-    avatar: Indie ,
+    avatar: Indie,
     link: "https://peerlist.io/shrey_/project/roast-my-github",
   },
 ];
@@ -76,14 +72,16 @@ export const socials = [
   },
   {
     title: "Peerlist",
-    description: "Mostly Active for Tech Architecture Discussions and Product launch! :)",
+    description:
+      "Mostly Active for Tech Architecture Discussions and Product launch! :)",
     link: "https://peerlist.io/shrey_",
     avatar: Peerlist,
   },
   {
     title: "LinkedIn",
-    description: "Mostly Active for Tech Opportunites and connect with cool Founders! :)",
-    link: "https://peerlist.io/shrey_",
+    description:
+      "Mostly Active for Tech Opportunites and connect with cool Founders! :)",
+    link: "https://www.linkedin.com/in/shrey-koradia-8294b11a0",
     avatar: Linkedin,
   },
   {
@@ -96,23 +94,23 @@ export const socials = [
 ];
 
 export const skills = [
-  {title: "HTML / CSS3"},
-  {title: "Javascript"},
-  {title: "TypeScript"},
-  {title: "React.js"},
-  {title: "Next.js"},
-  {title: "Node.js"},
-  {title: "Express.js"},
-  {title: "Mongo DB"},
-  {title: "Pg-Sql"},
-  {title: "React-Query"},
-  {title: "Zustand"},
-  {title: "GraphQl"},
-  {title: "Prisma"},
-  {title: "REST API's"},
-  {title: "Git & Github"},
-  {title: "Firebase"},
-  {title: "Supabase"},
-  {title: "Vercel"},
-  {title: "Railway"},
-]
+  { title: "HTML / CSS3" },
+  { title: "Javascript" },
+  { title: "TypeScript" },
+  { title: "React.js" },
+  { title: "Next.js" },
+  { title: "Node.js" },
+  { title: "Express.js" },
+  { title: "Mongo DB" },
+  { title: "Pg-Sql" },
+  { title: "React-Query" },
+  { title: "Zustand" },
+  { title: "GraphQl" },
+  { title: "Prisma" },
+  { title: "REST API's" },
+  { title: "Git & Github" },
+  { title: "Firebase" },
+  { title: "Supabase" },
+  { title: "Vercel" },
+  { title: "Railway" },
+];
