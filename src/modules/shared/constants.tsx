@@ -1,11 +1,16 @@
+import Dev from "@/assets/icons/dev.svg"
+import Grand from "@/assets/icons/grand.svg"
+import Linkedin from "@/assets/icons/linkedin.svg"
+import Twitter from "@/assets/icons/twitter.svg"
+
 import Talez from "../../../public/images/talez.jpg";
-import Grand from "../../../public/images/grand.png";
 import Webcrumbs from "../../../public/images/webcrumbs.png";
-import Twitter from "../../../public/images/twitter.png";
 import Peerlist from "../../../public/images/Peerlist.jpg";
-import Linkedin from "../../../public/images/linkedin.png";
-import RoastMyGithub from "../../../public/images/roast-my-github.png";
-import Dev from "../../../public/images/dev.png";
+import Indie from "../../../public/images/indie.png";
+
+
+
+
 
 export const ExperienceIntro = `Currently, I am working as an SDE-1 (core-Frontend) at a scaled
           startup, where I have played a pivotal role in developing a
@@ -57,7 +62,7 @@ export const projectLinks = [
   {
     title: "Roast My Github (Core Contributor - Next.js)",
     description: `Roast My Github is a Product of the Month - June'24 on Peerlist, an application for fun way to get roast for your github repository data, where you can then ideally find the job hunting tips on the basis of github roast of your own github repository data.`,
-    avatar: RoastMyGithub ,
+    avatar: Indie ,
     link: "https://peerlist.io/shrey_/project/roast-my-github",
   },
 ];
