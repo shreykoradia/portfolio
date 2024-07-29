@@ -8,33 +8,43 @@ import Webcrumbs from "../../../public/images/webcrumbs.png";
 import Peerlist from "../../../public/images/Peerlist.jpg";
 import Indie from "../../../public/images/indie.png";
 
-export const ExperienceIntro = `Currently, I am working as an SDE-1 (core-Frontend) at a scaled
-          startup, where I have played a pivotal role in developing a
-          Sweden based compliance and management product. My contributions
-          include the design and implementation of features for document
-          sharing, access management, and metadata handling of compliance
-          policies. By creating a reusable user interface across modules, I have
-          ensured consistency and improved the overall user experience. My
-          technical expertise includes working with React and various
-          third-party libraries such as Tanstack-query for server-side caching,
-          Zustand for client state management, and Syncfusion for UI components.`;
-
-export const ExperienceHeader = `In addition to my organizational experience, I have collaborated with founders who have held leadership positions at Yahoo, Blinkit, and Rippling. My role involved developing and scaling MVPs and building internal tools for their organizations. A notable project was the creation of a SQL querying engine within a React application, utilizing Node.js, GraphQL, Prisma, and ReactJS for seamless client-side operations.`;
-
-export const ExperienceBody = `During my university years, I was a finalist in the Smart India
-          Hackathon 2022, where I contributed to the development of an AI tool
-          that used neural networks and logarithmic regression to predict
-          college rankings. As a Team leader and a Frontend Design lead for the
-          Smart India Hackathon Team I entirely managed the architecture of the
-          product with its User Experience. This project honed my skills in AI
-          and machine learning algortihms, and I learned to tackle complex
-          problems with innovative solutions. I also contributed to the early
-          development of WebCrumbs, an open-source no-code web application.`;
-export const ExperienceFooter = `Today I am the founding coder of my saas application which is early
-          phases of Proof Of Concept called Talez where users can write tales
-          for their product and brainstorm features and bug, add a feedback and
-          create a github issue with the repository connected to the workflows.
-          Releasing it real quick!`;
+export const experienceData = [
+  {
+    title: "SDE @radicalloop",
+    points: [
+      "Working as an SDE-1 (core-Frontend) at a scaled startup.",
+      "Developed a Sweden-based compliance and management product.",
+      "Designed features for document sharing, access management, and metadata handling.",
+      "Created reusable user interfaces across modules for consistency and improved UX.",
+      "Technical expertise in React, Tanstack-query, Zustand, and Syncfusion.",
+    ],
+  },
+  {
+    title: "Frontend-FullStack Engineer @SecureMyOrg",
+    points: [
+      "Collaborated with founders from Yahoo, Blinkit, and Rippling.",
+      "Developed and scaled MVPs and built internal tools.",
+      "Created a SQL querying engine within a React application using Node.js, GraphQL, Prisma, and ReactJS.",
+    ],
+  },
+  {
+    title: "Contributor @Webcrumbs, @SIH'22",
+    points: [
+      "Finalist in Smart India Hackathon 2022.",
+      "Developed an AI tool to predict college rankings using neural networks and logarithmic regression.",
+      "Led and designed the frontend for the Smart India Hackathon Team.",
+      "Contributed to the development of WebCrumbs, an open-source no-code web application.",
+    ],
+  },
+  {
+    title: "Product Engineer / Founding Coder @Talez",
+    points: [
+      "Founding coder of a SaaS application called Talez.",
+      "Talez allows users to write tales for their product, brainstorm features and bugs, add feedback, and create GitHub issues.",
+      "Currently in the proof of concept phase.",
+    ],
+  },
+];
 
 export const projectLinks = [
   {
